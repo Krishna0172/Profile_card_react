@@ -9,30 +9,30 @@ const userData = [
         online:true,
         profile: "images/krishna.jpg ",
     },
-    // {
-    //     name:'Krishna',
-    //     city:'Coimbatore',
-    //     description : 'Backend Developer',
-    //     skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
-    //     online:true,
-    //     profile: "images/tiger.jpg",
-    // },
-    // {
-    //     name:'James',
-    //     city:'New -York',
-    //     description : 'Full Stack Developer',
-    //     skills:['Nodejs','Express','MongoDB','GraphQL','React','Redux','Nextjs','React Native','Flutter','Dart','Java','Python'],
-    //     online:false,
-    //     profile: "images/cat.jpg",
-    // },
-    // {
-    //     name:'Lio',
-    //     city:'Coimbatore',
-    //     description : 'Full Stack Developer',
-    //     skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
-    //     online:false,
-    //     profile: "images/lion.jpg",
-    // }
+    {
+        name:'Krishna',
+        city:'Coimbatore',
+        description : 'Backend Developer',
+        skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
+        online:true,
+        profile: "images/tiger.jpg",
+    },
+    {
+        name:'James',
+        city:'New -York',
+        description : 'Full Stack Developer',
+        skills:['Nodejs','Express','MongoDB','GraphQL','React','Redux','Nextjs','React Native','Flutter','Dart','Java','Python'],
+        online:false,
+        profile: "images/cat.jpg",
+    },
+    {
+        name:'Lio',
+        city:'Coimbatore',
+        description : 'Full Stack Developer',
+        skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
+        online:false,
+        profile: "images/lion.jpg",
+    }
 ]
 
 function User(props) {

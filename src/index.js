@@ -9,4 +9,3 @@ root.render(
     <UserCard/>
   </React.StrictMode>
 );
-
