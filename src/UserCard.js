@@ -1,5 +1,6 @@
 import PropType  from "prop-types";
-
+import Krishna from  "./images/krishna.jpg"
+import Lokesh from "./images/lokesh.jpg"
 const userData = [
     {
         name:'Krishna R',
@@ -7,31 +8,31 @@ const userData = [
         description : 'Full Stack Developer',
         skills:['Nodejs','Express','MongoDB','GraphQL','React','Redux','Nextjs','React Native','Flutter','Dart','Java','Python'],
         online:true,
-        profile: "images/krishna.jpg ",
+        profile: Krishna,
     },
+    // {
+    //     name:'Krishna',
+    //     city:'Coimbatore',
+    //     description : 'Backend Developer',
+    //     skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
+    //     online:true,
+    //     profile: "images/tiger.jpg",
+    // },
+    // {
+    //     name:'James',
+    //     city:'New -York',
+    //     description : 'Full Stack Developer',
+    //     skills:['Nodejs','Express','MongoDB','GraphQL','React','Redux','Nextjs','React Native','Flutter','Dart','Java','Python'],
+    //     online:false,
+    //     profile: "images/cat.jpg",
+    // },
     {
-        name:'Krishna',
+        name:'Lokesh',
         city:'Coimbatore',
         description : 'Backend Developer',
         skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
-        online:true,
-        profile: "images/tiger.jpg",
-    },
-    {
-        name:'James',
-        city:'New -York',
-        description : 'Full Stack Developer',
-        skills:['Nodejs','Express','MongoDB','GraphQL','React','Redux','Nextjs','React Native','Flutter','Dart','Java','Python'],
         online:false,
-        profile: "images/cat.jpg",
-    },
-    {
-        name:'Lio',
-        city:'Coimbatore',
-        description : 'Full Stack Developer',
-        skills:[ 'Node','Sentiment Analysis','Web Scrapping','Amazon Aws','Python', 'JavaScript', 'C Programming', 'C++', 'SQL', 'React'],
-        online:false,
-        profile: "images/lion.jpg",
+        profile: Lokesh,
     }
 ]
 

@@ -81,6 +81,9 @@ img{
   justify-content: center;
   gap: 10px
 }
+button:hover{
+  opacity: 0.8;
+}
 button.primary{
   background-color: #0984e3;
   border: 1px solid #0984e3;
